@@ -1,46 +1,40 @@
-
 # Manga
 
-**Aplicativo bancário completo** desenvolvido em **React Native com Expo**.
+Aplicativo bancário completo desenvolvido em **React Native com Expo**.
 
----
+<img src="https://user-images.githubusercontent.com/jean-cavalcante1/manga/logo.png" width="120" />
 
-## Nome do Repositório:
-**`manga`**
+## Funcionalidades principais
 
-## Nome do Projeto:
-**Manga**
+- Login com segurança (autenticação Firebase)
+- Dashboard com nome do usuário
+- PIX: envio, recebimento, agendamento e QR Code
+- Cartão virtual: ver dados, bloquear/desbloquear, gerar novo
+- Histórico de transações e comprovantes em PDF
+- Recarga de celular com operadoras brasileiras
+- Boletos: pagamento e geração de depósito
+- Suporte via chat
+- Reconhecimento facial e verificação com RG (foto)
+- Acessibilidade completa (modo escuro/claro, leitores de tela)
+- Splash animado e efeitos sonoros no PIX
 
----
+## Tecnologias
 
-## Funcionalidades Principais:
+- Expo (React Native)
+- Firebase (Auth, Firestore, Storage)
+- Expo Router
+- Context API
+- Styled Components
+- React Native Paper (UI)
+- react-native-qrcode-svg / expo-camera
 
-- Login com segurança  
-- Dashboard com nome do usuário  
-- **PIX** (envio, recebimento, agendamento, QR Code)  
-- **Cartão virtual** (dados, bloqueio, gerar novo cartão)  
-- Histórico de transações e comprovantes  
-- **Recarga de celular**  
-- Suporte via **chat**  
-- **Boletos** (pagamento e geração para depósito)  
-- Reconhecimento facial e verificação com foto do **RG**  
-- **Acessibilidade completa**  
-- Integração com **Firebase** (auth, Firestore)  
-- Splash animado e **efeitos sonoros no PIX**
+## Como rodar no seu celular (Android)
 
----
+1. Instale o app **Expo Go** pela Play Store
+2. Clone o repositório:
 
-## Como rodar no celular (Android):
-
-1. Instale o **Expo Go** pela Play Store  
-2. Clone este repositório:
-   ```bash
-   git clone https://github.com/jean-cavalcante1/manga.git
-   cd manga
-   npm install
-   npx expo start
-   ```
-
----
-
-**Criado por Jean Cavalcante**
+```bash
+git clone https://github.com/jean-cavalcante1/manga.git
+cd manga
+npm install
+npx expo start

@@ -1,8 +1,8 @@
-# Manga
+# nxbank-ap
 
 Aplicativo bancário completo desenvolvido em **React Native com Expo**.
 
-<img src="https://user-images.githubusercontent.com/jean-cavalcante1/manga/logo.png" width="120" />
+<img src="https://user-images.githubusercontent.com/jean-cavalcante1/nxbank-ap/logo.png" width="120" />
 
 ## Funcionalidades principais
 
